@@ -10,7 +10,7 @@ public class Controller {
 	
 	@GetMapping(AppConstants.URL_ROOT)
 	public String home() {
-		return ("<h1>WELCOME</h1>");
+		return ("<h1>WELCOME</h1>"); 
 	}
 
 	@GetMapping(AppConstants.URL_USER)
